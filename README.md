@@ -24,28 +24,31 @@ Um Sistema simples para encurtador links desenvolvido com Laravel 11 é SQLite.
 <h2 align="center">Capturas de Tela Celular</h2>
 
 <p align="center">
-<img src="https://blogger.googleusercontent.com/img/a/AVvXsEiGUWBqEog7MGzLP3UjbX5l0GdLkrgQ3PfyUPOShgVOYQfs74J6H2-l9PhjqaR7mzr8hRHrqAdUwmomHVt1maMXIDdYuahARCCjCHObZpYnb6CrK-SUMkAT6MCGy1YIZ4At_CfIfUz2Hcs-aEiljTF-X22HPZ4gNT02a3vxv6rc0uCfq_37gC9EsndFxkXo" width="800">
+<img src="https://blogger.googleusercontent.com/img/a/AVvXsEiGUWBqEog7MGzLP3UjbX5l0GdLkrgQ3PfyUPOShgVOYQfs74J6H2-l9PhjqaR7mzr8hRHrqAdUwmomHVt1maMXIDdYuahARCCjCHObZpYnb6CrK-SUMkAT6MCGy1YIZ4At_CfIfUz2Hcs-aEiljTF-X22HPZ4gNT02a3vxv6rc0uCfq_37gC9EsndFxkXo" width="300">
 </p>
 
 ## Estrutura do Projeto
+
+```plaintext
 project-root/
 ├── public/
-│ ├── css/
-│ │ ├── bootstrap5.css
-│ │ └── styles.css
-│ ├── img/
-│ │ ├── link.png
-│ │ └── svg/
-│ │ └── copy.svg
-│ └── js/
-│ └── clipboard.min.js
+│   ├── css/
+│   │   ├── bootstrap5.css
+│   │   └── styles.css
+│   ├── img/
+│   │   ├── link.png
+│   │   └── svg/
+│   │       └── copy.svg
+│   └── js/
+│       └── clipboard.min.js
 ├── resources/
-│ ├── views/
-│ │ ├── layouts/
-│ │ │ └── app.blade.php
-│ │ └── welcome.blade.php
+│   ├── views/
+│   │   ├── layouts/
+│   │   │   └── app.blade.php
+│   │   └── welcome.blade.php
 └── routes/
-└── web.php
+    └── web.php
+```
 
 ## Instalação
 
@@ -98,10 +101,6 @@ php artisan key:generate
 Rode a migração para criar as tabelas no banco de dados:
 ```sh
 php artisan migrate
-```
-Rode o seeder para pagar os dados das apis, e alimendar as tabelas do banco de dados:
-```sh
-php artisan db:seed
 ```
 Inicie o servidor local da Aplicação:
 ```sh
