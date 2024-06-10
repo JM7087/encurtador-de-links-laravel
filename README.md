@@ -1,7 +1,7 @@
 # Encurtador de Links
 
 ## Descrição
-Um Sistema simples para encurtador links desenvolvido com Laravel 11, SQLite, javascript, css, html, bootstrap, clipboardjs.
+Um Sistema simples para encurtador links desenvolvido com Laravel 11, SQLite, JavaScript, CSS, HTML, Bootstrap, ClipboardJs.
 
 <h2 align="center">Capturas de Telas</h2>
 
