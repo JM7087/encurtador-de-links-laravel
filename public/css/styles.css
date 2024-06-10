@@ -1,0 +1,31 @@
+.cor-link-rodape {
+    color: #ffffff;
+}
+
+.cor-nome-dev-rodape {
+    color: #cccccc;
+}
+
+.texto-rodape {
+    font-size: 100%;
+    text-align: left;
+}
+
+main {
+    flex-grow: 1;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #efefef;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.btn-encurtar-link {
+    width: 200px;
+}
