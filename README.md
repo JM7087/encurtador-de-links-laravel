@@ -94,6 +94,11 @@ DB_DATABASE= o caminho completo do arquivo no PC bancoSQLITE/links.sqlite
 # DB_PASSWORD=
 ```
 
+Instalar o Composer
+```sh
+composer install
+```
+
 Gere a chave da aplicação:
 ```sh
 php artisan key:generate
